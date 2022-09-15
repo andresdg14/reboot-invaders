@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Reboot Invaders</title>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fugaz+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+<body>
+  <div id="bg-wrapper">
+    <div id="wrapper">
+      <section id="header">
+        <section id="lives-section">
+          <img class="live" src="./img/live.png" alt="live">
+          <img class="live" src="./img/live.png" alt="live">
+          <img class="live" src="./img/live.png" alt="live">
+        </section>
+        <section id="score">SCORE: 0</section>
+      </section>
+      <section id="game">
+        <div id="pre-game">
+          <h1>REBOOT INVADERS</h1>
+          <button id="play-button" class="play-button">PLAY</button>
+        </div>
+      </section>
+      <div id="buttons-content">
+        <button id="reset-button" class="button" onClick="window.location.reload();">RESET</button>
+        <button id="future-button" class="button">FUTURE</button>
+        <button id="retro-button" class="button">RETRO</button>
+      </div>
+    </div>
+    </div>
+    <script src="./js/sounds.js"></script>
+    <script src="./js/alien.js"></script>
+    <script src="./js/shooter.js"></script>
+    <script src="./js/bullet-alien.js"></script>
+    <script src="./js/bullet.js"></script>
+    <script src="./js/game.js"></script>
+</body>
+</html>
